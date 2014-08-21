@@ -1,0 +1,31 @@
+# Dependencies
+markdown:       redcarpet
+highlights:     pygments
+
+# Permalinks
+permalink:      /blog/:categories/:year/:month/:day/:title
+
+# Setup
+title:          Vanco Packaging
+tagline:        Custom Protective Packaging
+
+baseurl:        http://vancopackaging.com/
+url:            http://vancopackaging.com
+
+# Blog
+paginate_path:    "blog/page:num"
+paginate:         4
+
+#
+author:
+  name:           Margret
+  url:            https://twitter.com/vancopackaging
+  email:          margret@vancopackaging.com
+
+# Custom vars
+version:          1.0
+github:
+  repo:           https://github.com/poole/poole
+google_analytics: UA-
+timezone:           America/Chicago
+

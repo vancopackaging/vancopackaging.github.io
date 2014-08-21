@@ -1,132 +1,52 @@
-<html>
+---
+layout: home
+title: 
+---
 
-<head>
-<meta name="Description" content="Protective Packaging, Boxes, Bags, Bubble Wrap, Cases">
-<meta name="KeyWords" content="Protective Packaging, Boxes, Bags, Bubble Wrap, Cases">
-<meta name="Author" content="T.A. Binks">
-<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
-<meta name="ProgId" content="FrontPage.Editor.Document">
-<title>Vanco Packaging Corporation</title>
+<div class="image-wide">
+This is my signature look.
+</div>
 
-  <SCRIPT LANGUAGE="JavaScript">
-  <!--
-  var b_name = navigator.appName;
-  var b_ver = parseInt(navigator.appVersion);
-  var b_OK = (b_name == "Netscape" && b_ver >= 3) || (b_name == "Microsoft Internet Explorer" && b_ver >= 4);
+<div>
+    hi
+    </div>
+<div>
+    </div>
 
-  function swapImg() {
-    if(b_OK) {
-    var args = swapImg.arguments;
-    var len = args.length;
-      for(i=0; i < len; i++) {
-        if(i % 2 == 0) {
-          document.images[args[i]].src = args[(i + 1)];
-        }
-      }
-    }
-  }
-  //-->
-  </SCRIPT>
-</head>
 
-<body bgcolor="#FFFFFF" text="#5A76BE" link="#4BB94F" vlink="#FFA4F9" alink="#5FAFFF">
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
 
-<center><img src="images/vanco_title.gif" width="350" height="75"><br>
-<table border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td align="RIGHT" width="108"><img src="images/empty.gif" width="1" height="28"><br>
-    </td>
-    <td width="1"><img src="images/empty.gif" width="1" height="1"><br>
-    </td>
-    <td rowspan="3" valign="TOP" width="329">
-      <table border="0" cellspacing="0" cellpadding="0">
-        <tr>
-          <td valign="TOP" width="20" height="120"><img src="images/empty.gif" width="1" height="14"><br>
-            <img src="images/top_line.gif" width="20" height="1"></td>
-          <td width="161" valign="TOP"><img src="images/menu_1c.gif" name="message" width="161" height="56"><br>
-          </td>
-          <td width="149" valign="BOTTOM"><img src="images/empty.gif" width="36" height="1"><img src="images/image_pinksquare.gif" width="75" height="75"><br>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="3" align="CENTER" valign="TOP" height="265"><img src="images/image_centerlogo.gif" width="235" height="218"><br>
-          </td>
-        </tr>
-      </table>
-    </td>
-    <td rowspan="3" valign="BOTTOM" width="1"><img src="images/right_line.gif" width="1" height="123"><br>
-    </td>
-  </tr>
-  <tr>
-    <td><img src="images/empty.gif" width="1" height="1"><br>
-    </td>
-    <td><img src="images/empty.gif" width="1" height="1"><br>
-    </td>
-  </tr>
-  <tr>
-    <td align="RIGHT" width="108"><img src="images/empty.gif" width="1" height="16"><br>
-      <img src="images/menu_1a.gif" border="0" name="menu_1" width="108" height="33" usemap="#menu1_process"><br>
-      <img src="images/empty.gif" width="1" height="12"><br>
-      <img src="images/menu_2a.gif" border="0" name="menu_2" width="108" height="33" usemap="#menu2_process"><br>
-      <img src="images/empty.gif" width="1" height="12"><br>
-      <img src="images/menu_3a.gif" border="0" name="menu_3" width="108" height="33" usemap="#menu3_process"><br>
-      <img src="images/empty.gif" width="1" height="12"><br>
-      <img src="images/menu_4a.gif" border="0" name="menu_4" width="108" height="33" usemap="#menu4_process"><br>
-      <img src="images/empty.gif" width="1" height="12"><br>
-      <img src="images/menu_5a.gif" border="0" name="menu_5" width="108" height="33" usemap="#menu5_process"><br>
-      <img src="images/empty.gif" width="1" height="12"><br>
-      <img src="images/menu_6a.gif" border="0" name="menu_6" width="108" height="33" usemap="#menu6_process"><br>
-      <img src="images/empty.gif" width="1" height="12"><br>
-      <img src="images/menu_7a.gif" border="0" name="menu_7" usemap="#menu7_process" width="108" height="19"><br>
-      <img src="images/empty.gif" width="1" height="12"><br>
-      <img src="images/empty.gif" width="108" height="19"><br>
-      <img src="images/empty.gif" width="1" height="15"><br>
-    </td>
-    <td valign="TOP" width="1" bgcolor="#000099"><img src="images/empty.gif" width="1" height="1"></td>
-  </tr>
-  <tr>
-    <td align="RIGHT"><img src="images/bottom_line.gif" width="108" height="1"><br>
-      <img src="images/vanco_address.gif" width="108" height="70"><br>
-    </td>
-    <td width="1"><img src="images/empty.gif" width="1" height="1"><br>
-    </td>
-    <td align="RIGHT" valign="TOP"><img src="images/bottom_line.gif" width="108" height="1"><br>
-      <img src="images/tab.gif" border="0" usemap="#tab_process" width="98" height="18"><br>
-    </td>
-  </tr>
-</table>
-<map name="menu1_process">
-<area href="about_vanco.html" onmouseover="swapImg('menu_1','images/menu_1b.gif','message','images/menu_1c.gif'); window.status='About Vanco'; return true;" onmouseout="swapImg('menu_1','images/menu_1a.gif','message','images/empty.gif'); window.status='';" coords="7, 0, 93, 33" shape="RECT"></map><map name="menu2_process">
-<area shape="RECT" coords="7,0,93,33" href="corporate_information.html" onmouseover="swapImg('menu_2','images/menu_2b.gif','message','images/menu_2c.gif'); window.status='Corporate Information'; return true;" onmouseout="swapImg('menu_2','images/menu_2a.gif','message','images/empty.gif'); window.status='';"></map><map name="menu3_process">
-<area shape="RECT" coords="7,0,93,33" href="product_lines.html" onmouseover="swapImg('menu_3','images/menu_3b.gif','message','images/menu_3c.gif'); window.status='Product Lines'; return true;" onmouseout="swapImg('menu_3','images/menu_3a.gif','message','images/empty.gif'); window.status='';"></map><map name="menu4_process">
-<area shape="RECT" coords="7,0,93,33" href="services_provided.html" onmouseover="swapImg('menu_4','images/menu_4b.gif','message','images/menu_4c.gif'); window.status='Services Provided'; return true;" onmouseout="swapImg('menu_4','images/menu_4a.gif','message','images/empty.gif'); window.status='';"></map><map name="menu5_process">
-<area shape="RECT" coords="7,0,93,33" href="employment_opportunities.html" onmouseover="swapImg('menu_5','images/menu_5b.gif','message','images/menu_5c.gif'); window.status='Employment Opportunities'; return true;" onmouseout="swapImg('menu_5','images/menu_5a.gif','message','images/empty.gif'); window.status='';"></map><map name="menu6_process">
-<area shape="RECT" coords="7,0,93,33" href="contact_information.htm" onmouseover="swapImg('menu_6','images/menu_6b.gif','message','images/menu_6c.gif'); window.status='Contact Information'; return true;" onmouseout="swapImg('menu_6','images/menu_6a.gif','message','images/empty.gif'); window.status='';"></map><map name="menu7_process">
-<area shape="RECT" coords="7,0,93,19" href="guestbook.html" onmouseover="swapImg('menu_7','images/menu_7b.gif','message','images/menu_7c.gif'); window.status='Guestbook'; return true;" onmouseout="swapImg('menu_7','images/menu_7a.gif','message','images/empty.gif'); window.status='';"></map><map name="menu8_process"><map name="tab_process">
-<area shape="RECT" coords="19,4,98,17" href="http://www2.uic.edu/~tbinko1" onmouseover="window.status='Visit TAB'; return true;" onmouseout="window.status='';"></map> 
+    <span class="post-date">{{ post.date | date_to_string }}</span>
 
-  <SCRIPT LANGUAGE="JavaScript">
-  <!--
+    {{ post.content }}
+  </div>
+  {% endfor %}
+</div>
 
-    if(b_OK) {
-      theImagesB = new Array(9);
-      for(i = 1; i < 9; i++) {
-        theImagesB[i] = new Image();
-        theImagesB[i].src = "images/menu_" + i + "b.gif"
-      }
 
-  	  theImagesC = new Array(9);
-      for(i = 1; i < 9; i++) {
-        theImagesC[i] = new Image();
-        theImagesC[i].src = "images/menu_" + i + "c.gif"
-      }
-    }       
 
-  //-->
-  </SCRIPT>
 
-</center></map>
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
 
-</body>
-
-</html>

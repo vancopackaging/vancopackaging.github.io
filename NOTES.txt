@@ -1,0 +1,88 @@
+
+        <div class="intro-header">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="intro-message" style="visibility:hidden;">
+                            <h1>Vanco Packaging Corporation</h1>
+                            <h3>Your Kids Will Hate It</h3>
+                            <hr class="intro-divider">
+                            <ul class="list-inline intro-social-buttons">
+                                <li><a href="https://itunes.apple.com/us/app/screen-time/id401258730" class="btn btn-default btn-lg"><i class="fa fa-apple fa-fw"></i> <span class="network-name">Available on the App Store</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- /.container -->
+            
+        </div>
+        <!-- /.intro-header -->
+        
+        
+        <!-- -->
+        <div class="bs-docs-featurette">
+            <div class="container">
+                <h1 class='headline'>An Exclusive Retailer of Hardigg and Pelican Cases</h1>
+                <p class="lead">Custom solutions for all your packaging needs.</p>
+                
+                <hr class="half-rule">
+                
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img class="img-responsive img-circle" src="{{ site.baseurl }}public/images/fire_circle.jpg" alt="">
+                            <h3>Fire and EMS</h3>
+                            <p>Bootstrap easily and efficiently scales your websites and applications with a single code base, from phones to tablets to desktops with CSS media queries.</p>
+                            </div>
+                    <div class="col-sm-4">
+                        <img class="img-responsive img-circle" src="{{ site.baseurl }}public/images/police_circle.png" alt="">
+                            <h3>Law Enforcement</h3>
+                            <p>With Bootstrap, you get extensive and beautiful documentation for common HTML elements, dozens of custom HTML and CSS components, and awesome jQuery plugins.</p>
+                            </div>
+                    <div class="col-sm-4">
+                        <img class="img-responsive img-circle" src="{{ site.baseurl }}public/images/military_circle.png" alt="">
+                            <h3>Military</h3>
+                            <p>With Bootstrap, you get extensive and beautiful documentation for common HTML elements, dozens of custom HTML and CSS components, and awesome jQuery plugins.</p>
+                            </div>
+
+                </div>
+                <hr class="half-rule">
+            </div>
+        </div>
+        
+        
+        <!-- -->
+        <div class="bs-docs-featurette-gray">
+            <div class="container">
+                <h1 class='headline'>Paper and Foam Packaging</h1>
+                <p class="lead">Vanco's modern manufacturing facility has the ability to produce a wide range of packaging products for unusual and demanding specialty requirements. </p>
+                
+                <hr class="half-rule">
+                
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img class="img-responsive img-circle" src="{{ site.baseurl }}public/images/military_circle.png" alt="">
+                            <h3>Preprocessors</h3>
+                            <p>Bootstrap ships with vanilla CSS, but its source code utilizes the two most popular CSS preprocessors, <a href="../css/#less">Less</a> and <a href="../css/#sass">Sass</a>. Quickly get started with precompiled CSS or build on the source.</p>
+                            </div>
+                    <div class="col-sm-4">
+                        <img class="img-responsive img-circle" src="{{ site.baseurl }}public/images/emergency.png" alt="">
+                            <h3>One framework, every device.</h3>
+                            <p>Bootstrap easily and efficiently scales your websites and applications with a single code base, from phones to tablets to desktops with CSS media queries.</p>
+                            </div>
+                    <div class="col-sm-4">
+                        <img class="img-responsive img-circle" src="{{ site.baseurl }}public/images/storm_fire3_small.png" alt="">
+                            <h3>Full of features</h3>
+                            <p>With Bootstrap, you get extensive and beautiful documentation for common HTML elements, dozens of custom HTML and CSS components, and awesome jQuery plugins.</p>
+                            </div>
+                </div>
+                
+                <hr class="half-rule">
+            </div>
+        </div>
+        
+        
+

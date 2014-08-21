@@ -1,0 +1,90 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		37160A321933C5770078B0B7 /* _config.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = _config.yml; sourceTree = "<group>"; };
+		37160A331933C58C0078B0B7 /* _includes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _includes; sourceTree = "<group>"; };
+		37160A341933C58C0078B0B7 /* _layouts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _layouts; sourceTree = "<group>"; };
+		37160A361933C58C0078B0B7 /* 404.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = 404.html; sourceTree = "<group>"; };
+		37160A371933C58C0078B0B7 /* CNAME */ = {isa = PBXFileReference; lastKnownFileType = text; path = CNAME; sourceTree = "<group>"; };
+		37160A381933C58C0078B0B7 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		37160A391933C58C0078B0B7 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.md; sourceTree = "<group>"; };
+		37160A3B1933C58C0078B0B7 /* public */ = {isa = PBXFileReference; lastKnownFileType = folder; path = public; sourceTree = "<group>"; };
+		37160A3C1933C58C0078B0B7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		376CB85A1936780A002EB1BF /* blog */ = {isa = PBXFileReference; lastKnownFileType = folder; path = blog; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		37160A2B1933C5340078B0B7 = {
+			isa = PBXGroup;
+			children = (
+				37160A321933C5770078B0B7 /* _config.yml */,
+				376CB85A1936780A002EB1BF /* blog */,
+				37160A331933C58C0078B0B7 /* _includes */,
+				37160A341933C58C0078B0B7 /* _layouts */,
+				37160A361933C58C0078B0B7 /* 404.html */,
+				37160A371933C58C0078B0B7 /* CNAME */,
+				37160A381933C58C0078B0B7 /* index.html */,
+				37160A391933C58C0078B0B7 /* LICENSE.md */,
+				37160A3B1933C58C0078B0B7 /* public */,
+				37160A3C1933C58C0078B0B7 /* README.md */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		37160A2C1933C5340078B0B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 37160A2F1933C5340078B0B7 /* Build configuration list for PBXProject "vancopackaging.github.io" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37160A2B1933C5340078B0B7;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		37160A301933C5340078B0B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		37160A311933C5340078B0B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37160A2F1933C5340078B0B7 /* Build configuration list for PBXProject "vancopackaging.github.io" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37160A301933C5340078B0B7 /* Debug */,
+				37160A311933C5340078B0B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37160A2C1933C5340078B0B7 /* Project object */;
+}

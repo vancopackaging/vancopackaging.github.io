@@ -1,0 +1,16 @@
+Hi,
+I am submitting my application, Screen Time for review.  
+
+Screen Time is a simple app that allows you to set limits on the amount of time you children use an iPhone or iPad. Set a time length, press start and pass it to you children. After the time expires, a series of notifications discourages your children from using the device until you enter the correct passcode.
+
+Since I'm sure TUAW receives a lot of app review submissions, I will highlight the most novel features here (more details are in the press release):
+
+- Uses multi-tasking mode to monitor time remaining using background fetches.  The app screenshot background color changes to provide a visual cue to younger users who can not yet read or tell time.
+- In addition to notifications on the device, a single notification is posted to Notification Center to all devices that share an iCloud account (e.g. iPhone, iPad, Mac Book Pro, Mac Pro).  For example, if you hand off your phone to a child while you are working on your iMac you will receive a notification on your iMac when the time is up.
+
+As a parent, I wish that Apple would include native screen time management features in the iOS, but since they don't, I have developed this app.  I have leveraged all the most advanced features of iOS to try to create a solutions for parents that balances ease of use and functionality.
+
+I hope you enjoy it (and you kids hate it).
+
+Thanks,
+Andrew Binkowski
