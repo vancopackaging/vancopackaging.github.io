@@ -84,7 +84,6 @@ h2 {
 }
 
 
-
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
@@ -106,7 +105,7 @@ h2 {
 ------------------------- */
 
 .featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  margin: 20px 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -117,12 +116,30 @@ h2 {
 }
 
 
+.row {
+ text-align:center;
+ }
 
+.row p {
+text-align:left;
+}
+
+.img-circle {
+	width:175px;
+	height:175px;
+	}
+.background {
+	background-color:#eee;
+	margin:0px;
+	width:100%;
+	}
+	
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
 /* Medium Screen */
 @media (min-width: 320px) {
+
 
 }
 
@@ -144,6 +161,6 @@ h2 {
 /* Big screen */
 @media (min-width: 992px) {
   .featurette-heading {
-    margin-top: 120px;
+    margin-top: 20px; /* 120px */
   }
 }
