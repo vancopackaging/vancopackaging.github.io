@@ -1,4 +1,5 @@
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div style="background-color:#C6DC8A;height:2px;width:100%"></div>
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -13,10 +14,74 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                <li><a href="{{ site.baseurl }}support/"></a></li>
-                <li><a href="{{ site.baseurl }}privacy/"></a></li>
-                <li><a href="{{ site.baseurl }}press/"></a></li>
-                <li><a href="mailto:office@vancopackaging.com">Contact</a>
+             
+             <!-- Pelican/Hardigg Dropdown -->
+             <li class="dropdown">
+                	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Packaging <span class="caret"></span></a>
+	                <ul class="dropdown-menu" role="menu">
+    	            	<li><a href="{{ site.baseurl }}support/">Cases</a></li>
+	    	            <li><a href="{{ site.baseurl }}privacy/">Lights</a></li>
+		                <li><a href="{{ site.baseurl }}privacy/">Foam</a></li>
+    		            <li><a href="{{ site.baseurl }}privacy/">Corrugated</a></li>
+    		    	</ul>
+              </li>     
+              
+              <!-- Lights Dropdown -->
+             <li class="dropdown">
+                	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Lights <span class="caret"></span></a>
+	                <ul class="dropdown-menu" role="menu">
+						<li><a href="/progear" title="Remote Area Lights">Pelican ProGear&trade;</a></li>
+						<li><a href="/military" title="Military &amp; Government">Military &amp; Government</a></li>
+
+        	        	<li class="divider"></li>
+            	      	<li class="dropdown-header">Remote Area Lights</li>	                
+						<li><a href="/lights_category_aalg.php?ProGear=%" title="Remote Area Lights">Remote Area Lights</a></li>
+						<li><a href="/9430IR" title="9430IR Remote Area Lighting System">9430IR Remote Area Lighting System</a></li>
+						<li><a href="/9435" title="9435 Remote Area Lighting System">9435 Remote Area Lighting System</a></li>
+						<li><a href="/9500" title="9500 Shelter Lighting System">9500 Shelter Lighting System</a></li>
+
+        	        	<li class="divider"></li>
+            	      	<li class="dropdown-header">Flashlights</li>
+						<li><a href="/lights_category.php?Category=Personal+Small+Lights" title="Personal Small Lights"> Personal Small Lights</a></li>
+						<li><a href="/lights_category.php?Category=Personal+Medium+Lights" title="Personal Medium Lights">Personal Medium Lights</a></li>
+						<li><a href="/lights_category.php?Category=Personal+Large+Lights" title="Personal Large Lights">Personal Large Lights</a></li>
+						<li><a href="/lights_category.php?Category=Tactical+Lights" title="Tactical Lights">Tactical Lights</a></li>
+						<li><a href="/lights_category.php?Category=Headlights" title="Headlights">Headlights</a></li>
+						<li><a href="/lights_category.php?Category=Right+Angle+Lights" title="Right Angle Lights">Right Angle Lights</a></li>
+						<li><a href="/lights_category.php?Category=Dive+Lights" title="Dive Lights">Dive Lights</a></li>
+						<li><a href="/lights_category.php?Category=Specialty+Lights" title="Specialty Lights">Specialty Lights</a></li>
+
+	                </ul>
+              </li>      
+              
+             <!-- Protective Packaging Dropdown -->
+             <li class="dropdown">
+                	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Cases <span class="caret"></span></a>
+	                <ul class="dropdown-menu" role="menu">
+    	            	<li><a href="{{ site.baseurl }}support/">Cases</a></li>
+	    	            <li><a href="{{ site.baseurl }}privacy/">Lights</a></li>
+		                <li><a href="{{ site.baseurl }}privacy/">Foam</a></li>
+    		            <li><a href="{{ site.baseurl }}privacy/">Corrugated</a></li>
+
+        	        	<li class="divider"></li>
+            	      	<li class="dropdown-header">Protective</li>
+                	  	<li><a href="#">Separated link</a></li>
+                  		<li><a href="#">One more separated link</a></li>
+	                </ul>
+              </li>     
+              
+        	 <!-- Beacon Case Dropdown -->
+             <li class="dropdown">
+                	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Services <span class="caret"></span></a>
+	                <ul class="dropdown-menu" role="menu">
+    	            	<li><a href="{{ site.baseurl }}support/">Design Consulting </a></li>
+	    	            <li><a href="{{ site.baseurl }}privacy/">Case Proximity Solutions </a></li>
+		                <li><a href="{{ site.baseurl }}privacy/">Inventory Management </a></li>
+	                </ul>
+              </li>   
+        
+        	<li><a href="mailto:office@vancopackaging.com">Contact</a>
+                
                 </li>
             </ul>
         </div>

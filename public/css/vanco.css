@@ -55,6 +55,20 @@ h2 {
   width: auto;
 }
 
+/* Shrink the navbar text a bit */
+.navbar-nav>li>a { 
+  font-size:1.3rem;
+}
+.navbar-nav>li>.dropdown-menu {
+ background-color:#f0f0f0;
+ }
+ 
+.dropdown-header {
+ font-size:1.2rem;
+ color:#4da4d8;
+ font-weight:bold;
+ text-transform:uppercase;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -139,8 +153,6 @@ text-align:left;
 
 /* Medium Screen */
 @media (min-width: 320px) {
-
-
 }
 
 /* Medium Screen */
@@ -156,6 +168,7 @@ text-align:left;
   .featurette-heading {
     font-size: 50px;
   }
+  
 }
 
 /* Big screen */
